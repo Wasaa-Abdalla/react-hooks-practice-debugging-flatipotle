@@ -119,7 +119,7 @@ function SideForm(props) {
           </div>
         </div>
 
-        <div className="field">
+        export default FillingForm;     <div className="field">
           <div className="ui checkbox">
             <input
               id="drink"
@@ -142,3 +142,4 @@ function SideForm(props) {
     </>
   );
 }
+export default SideForm;
